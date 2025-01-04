@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.wrap {
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  background-color: #e4e4e4;
+}
+.header, .footer {
+  text-align: center;
+  background-color: #666666;
+  color: #ffffff;
+}
+.header h1, .footer p {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+.sidebar {
+  float: right;
+  width: 200px;
+  background-color: #999999;
+  color: #000000;
+  padding: 10px;
+}
+.maincontent {
+  text-align: center;
+  margin: 0 250px 0 0;
+  padding: 100px;
+}
+.clearfloat {
+  text-align: center;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+  
+body {
+  margin: auto;
+  font-family: Vernada, Arial, Helvetica, sans-serif;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.icon-bar {
+  width: 10%;
+  height: 50%;
+  background-color: #202A44;
+}
+
+.icon-bar a {
+  display: block;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #E2BB7B;
+  font-size: 36px;
+  float: left;
+  width: 25%;
+  height: 25%;
+}
+
+.icon-bar a:hover {
+  background-color: #FFDCA3;
+}
+
+.active {
+  background-color: #336796;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.column {
+  width: 10%;
+  height: 50%;
+  color: #202A44;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a class="active" href="#home"><i class="fa fa-home"></i></a>
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a>
+</div>
+
+<div class="icon-bar"></div>
+
+<div class="maincontent">
+  <h1>Main content</h1>
+  <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed scelerisque mauris. Cras ullamcorper rhoncus arcu,
+      sit amet bibendum dui fringilla at. Quisque et ligula erat. Nulla ac porttitor nibh, ac consectetur augue. Ut posuere,
+      est fermentum dapibus sodales, nisl velit ultricies mi, nec lobortis libero leo quis nisi. Pellentesque semper leo sit amet rutrum maximus.
+      Aliquam maximus eget erat id suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Nullam dictum congue interdum. Morbi quis erat urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Ut maximus dui nec justo commodo vulputate. Suspendisse in ultrices ipsum, accumsan facilisis quam. Cras non odio ac nibh tempus dapibus.
+      In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+  </p>
+  <h2>H2 level heading</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed scelerisque mauris. Cras ullamcorper rhoncus arcu,
+    sit amet bibendum dui fringilla at. Quisque et ligula erat. Nulla ac porttitor nibh, ac consectetur augue. Ut posuere,
+    est fermentum dapibus sodales, nisl velit ultricies mi, nec lobortis libero leo quis nisi. Pellentesque semper leo sit amet rutrum maximus.
+    Aliquam maximus eget erat id suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Nullam dictum congue interdum. Morbi quis erat urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Ut maximus dui nec justo commodo vulputate. Suspendisse in ultrices ipsum, accumsan facilisis quam. Cras non odio ac nibh tempus dapibus.
+    In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed scelerisque mauris. Cras ullamcorper rhoncus arcu,
+    sit amet bibendum dui fringilla at. Quisque et ligula erat. Nulla ac porttitor nibh, ac consectetur augue. Ut posuere,
+    est fermentum dapibus sodales, nisl velit ultricies mi, nec lobortis libero leo quis nisi. Pellentesque semper leo sit amet rutrum maximus.
+    Aliquam maximus eget erat id suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Nullam dictum congue interdum. Morbi quis erat urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Ut maximus dui nec justo commodo vulputate. Suspendisse in ultrices ipsum, accumsan facilisis quam. Cras non odio ac nibh tempus dapibus.
+    In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+</p>
+  </div>
+
+<div class="content">
+    <h2>Responsive Sidebar Example</h2>
+    <p>This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.</p>
+    <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
+    <h3>Resize the browser window to see the effect.</h3>
+  </div>
+  <div class="column"><p>text</p></div>
+</body>
+</html> 
+
+the icon sidebar thing:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_icon_bar_v

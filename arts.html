@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<meta name="portfolio-arts" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="C:\Users\korke\04 - PORTFOLIO\">
+<link href="CC:\Users\korke\04 - PORTFOLIO\dog images">
+<link href="C:\Users\korke\OneDrive\Työpöytä\dogpics"><!--these need to be changed to the github pages-->
+<script src="https://kit.fontawesome.com/f74cd2337a.js" crossorigin="anonymous"></script>
+<head>
+<style>
+body {
+  margin:0;
+  background-image: url('XskdoNn.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.icon-bar {
+  width: 10%;
+  background-color: #202A44;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #E2BB7B;
+  font-size: 36px;
+  align-items: center;
+  aspect-ratio: 2/1;
+  align-self: center;
+}
+
+.icon-bar a:hover {
+  background-color: #2b1d0e;
+}
+
+.active {
+  background-color: #336796;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-flow: center;
+  gap: 10px;
+  background-color: #202A44;
+  padding: 16px;
+  align-content: stretch;
+}
+
+.item1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  display: flex;
+  float: center;
+  background-color: whitesmoke;
+  width: 10%;
+}
+.item2{
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 20px;
+  display: flex;
+  float: center;
+  background-color: #202A44;
+  width: 80%;
+  background-image: url("5w64qm-692704300.png");
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item3{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  display: center;
+  background-color: #202A44;
+  width: 10%;
+  
+}
+.para{
+  text-align: center;
+  padding: 50px;
+  color: whitesmoke;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  margin:0;
+  background-image: url('XskdoNn.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+/* fancy frame around everything */
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url("photo-frame.png");
+  text-align: center;
+  z-index: 11;
+  display: flex;
+  background-size: cover;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #336796;
+  color: #E2BB7B;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: #202A44;
+}
+</style>
+</head>
+<body>
+
+<h1 class="header">Arts and such</h1>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<div class="flexbox">
+  <div class="icon-bar">
+    <a href="index.html"><i class="fa fa-home"></i></a> 
+    <a href="cv.html"><i class="fa-regular fa-file"></i></a> <!-- cv and links-->
+    <a href="about.html"><i class="fa-solid fa-circle-user"></i></a> <!--about me-->
+    <a href="dogpics.html"><i class="fa-solid fa-dog"></i></a><!--dog pics-->
+    <a class="active" href="arts.html"><i class="fa-solid fa-palette"></i></a> <!--other stuff i dont know art?-->
+  </div>
+
+  <div class="item2">
+    <div class="row">
+        <div class="column">
+          <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20190220_121948.jpg" alt="Dog at his furriest">
+          <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20210921_134416.jpg" alt="Jakke looking at the camera, wondering what is going on, but too lazy to do anything">
+          <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20220211_212533.jpg" alt="He heard something">
+          <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20220211_212554.jpg" alt="Napping like a cat">
+          <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20220211_212607.jpg" alt="Napping like a cat 2">
+          <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20220910_192724.jpg" alt="He decided it would be a wonderful idea to sit on top of some feet">
+        </div>
+        <div class="column">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20230510_181538.jpg" alt="Just woken up, wondering what the photographer wants">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20230818_195342.jpg" alt="Just woken up, a little rolled up and sleepy">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20231206_210721.jpg" alt="He doesn't want to leave the bed, but wide awake">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20231206_210730.jpg" alt="His photogenic self">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20240718_185119.jpg" alt="Jakke's 'Oh no, you have tickled me bum' face">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20241016_003131.jpg" alt="Rolled up on top of a couch, he is acrobatic like that">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20241016_003151.jpg" alt="Camouflaged into the carpet">
+          </div>
+          <div class="column">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20241201_184751.jpg" alt="Happy face after getting a new present">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20241217_170312.jpg" alt="Hiding under bed from fireworks">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20241217_170343.jpg" alt="Jakke at his most cinnamonroll shaped">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20241217_170410.jpg" alt="Image of a handsome and hairy dog looking up and hoping someone drops something from the fridge">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20241217_170452.jpg" alt="Making sure nothing is amiss outside">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20230425_234616.jpg" alt="Under covers">
+            <img src="C:\Users\korke\04 - PORTFOLIO\images\arts\20230413_092559.jpg" alt="Next to his bed">
+          </div>
+    </div>
+  </div>
+  <div class="item3"></div>
+</div>
+
+<script>
+  // Get the button
+  let mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+</body>
+</html>
